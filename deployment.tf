@@ -24,7 +24,7 @@ resource "kubernetes_deployment" "kion-helloword" {
 
       spec {
         container {
-          image = "{https://hub.docker.com/_/golang/golang:latest}"
+          image = "{https://hub.docker.com/_/hello_worldgolang/golang:latest}"
           name  = "kion-golang"
           port {
             container_port = 8080
